@@ -407,6 +407,5 @@ Save screenshots in the root-level `screenshots/` directory. The links below ass
 - **Centralized validation and exception handling:** consistent errors make the API easier to consume and maintain.
 - **Local-first submission:** the complete assignment runs locally with SQL Server Express; no cloud account or paid infrastructure is needed to review it.
 
-### Potential next steps
 
-For a production deployment, useful follow-up work would include configuration-based API URLs and CORS origins, database provisioning, structured observability, stronger protection of sensitive request data in logs, and broader integration/end-to-end tests. These are **future improvements**, not features claimed as implemented in this submission.
+
