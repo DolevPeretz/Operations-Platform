@@ -1,0 +1,133 @@
+
+#root {
+    width: 100%;
+}
+
+.app-container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px;
+}
+
+header {
+    margin-bottom: 32px;
+}
+
+    header h1 {
+        margin-bottom: 8px;
+    }
+
+    header p {
+        color: #64748b;
+    }
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 24px;
+}
+
+    .card h2 {
+        margin-top: 0;
+    }
+
+/* Operation selector */
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #0f172a;
+    font: inherit;
+}
+
+/* Space between operation selector and form */
+
+.card form {
+    margin-top: 28px;
+}
+
+    /* Space between form title and input fields */
+
+    .card form h2 {
+        margin-bottom: 28px;
+    }
+
+/* Form fields */
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 24px 0;
+}
+
+/* Calculate button */
+
+button {
+    margin-top: 16px;
+    padding: 12px 24px;
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+    button:hover:not(:disabled) {
+        background: #1d4ed8;
+    }
+
+    button:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+/* Result */
+
+.result {
+    padding: 18px;
+    background: #f1f5f9;
+    border-radius: 8px;
+    color: #0f172a;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+/* Execution history */
+
+.history-item {
+    padding: 16px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+    .history-item p {
+        color: #64748b;
+        font-size: 14px;
+    }
+
+.monthly-count {
+    margin-top: 24px;
+    padding-top: 16px;
+    font-size: 16px;
+}
+
+/* Error messages */
+
+.error-message {
+    color: #dc2626;
+}

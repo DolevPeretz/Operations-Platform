@@ -1,0 +1,10 @@
+
+<Solution>
+  <Folder Name="/backend/">
+    <Project Path="backend/Operations_Platform_Assignment.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OperationsPlatform.Tests/OperationsPlatform.Tests.csproj" />
+  </Folder>
+</Solution>
+
